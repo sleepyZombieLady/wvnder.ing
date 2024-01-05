@@ -11,11 +11,11 @@
 <div class="title-spacer"></div>
 
 <style>
-    body {
+    .container {
         font-size: 100%;
     }
 
-    li {
+    li:not(.nav-item) {
         margin-bottom: 20px;
     }
 </style>
