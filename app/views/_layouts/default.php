@@ -41,8 +41,8 @@
 
     <div id="particles-js">
         <div class="branding">
-            <img src="/public/img/logo.png" alt="WVNDER logo"><br>
-            <img src="/public/img/address.png" alt="address">
+            <img class="img-fluid" src="/public/img/logo.png" alt="WVNDER logo"><br>
+            <img class="img-fluid" src="/public/img/address.png" alt="address">
         </div>
     </div>
 
