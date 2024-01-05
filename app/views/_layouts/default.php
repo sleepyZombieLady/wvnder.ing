@@ -17,11 +17,11 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-wvndr">
         <!-- <a class="navbar-brand" href="/">WVNDR</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#wvnder-main-menu" aria-controls="wvnder-main-menu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <div class="collapse navbar-collapse" id="wvnder-main-menu">
             <ul class="navbar-nav mr-auto ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="/">H O M E<span class="sr-only">(current)</span></a>
@@ -39,13 +39,15 @@
         </div>
     </nav>
 
-
     <div class="branding">
         <img class="img-fluid" src="/public/img/logo.png" alt="WVNDER logo"><br>
         <img class="img-fluid" src="/public/img/address.png" alt="address">
     </div>
 
     <div id="particles-js"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
     <script src="/public/js/particles.js"></script>
     <script src="/public/js/app.js?<?=uniqid()?>"></script>
