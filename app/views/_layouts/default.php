@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="wvnder-main-menu">
             <ul class="navbar-nav mr-auto ml-auto">
                 <li class="nav-item<?=$viewOpts['page']['section'] == 'home' ? ' active' : ''?>">
-                    <a class="nav-link" href="/">H O M E<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">H O M E</a>
                 </li>
                 <li class="nav-item<?=$viewOpts['page']['section'] == 'about' ? ' active' : ''?>">
                     <a class="nav-link" href="/about">A B O U T</a>
@@ -39,7 +39,7 @@
         </div>
     </nav>
 
-    <main role="main" class="flex-shrink-0 mainContent" <?=$viewOpts['page']['section'] != 'home' ? 'style="padding-top: 75px; "' : ''?>>
+    <main role="main" class="flex-shrink-0">
         <?php
         include(views . '/content/' . $viewOpts['page']['content'] . '.php');
         ?>
