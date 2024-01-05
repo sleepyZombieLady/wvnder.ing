@@ -2,6 +2,8 @@
 body {
     margin: 0;
     font: normal 75% Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
 }
 
 canvas {
@@ -14,12 +16,18 @@ canvas {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #b61924;
     background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: 50% 50%;
     z-index: -1 !important;
+}
+
+.title-header {
+    height: 300px !important;
+    background-size: unset !important;
+    background-position: center top !important;
+    vertical-align: bottom !important;
 }
 
 /* ---- custom css ---- */
@@ -42,4 +50,12 @@ canvas {
 .nav-item {
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.section-title {
+    margin-top: 160px;
+}
+
+.title-spacer {
+    height: 320px;
 }
