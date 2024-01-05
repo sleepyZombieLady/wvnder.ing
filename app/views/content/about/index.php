@@ -23,8 +23,12 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center">
-            <img src="/public/img/everyone.png" alt="Everyone's Welcome!" class="img-fluid d-none d-md-block" style="margin-top: -120px; margin-bottom: 32px; ">
-            <p>
+            <img src="/public/img/alisae.gif" alt="Enjoy our delicious menu!" class="img-fluid d-sm-none" style="margin-top: -120px; max-height: 300px; ">
+            <img src="/public/img/everyone.png" alt="Everyone's Welcome!" class="img-fluid d-none d-md-block" style="margin-top: -120px; ">
+            <p class="text-center d-none d-md-block">
+                <em>Everyone is welcome at WVNDER!</em>
+            </p>
+            <p class="lead">
                 Wvnder is a bathhouse and lounge 'bathlounge', and bar in Lamia on the Primal datacenter!
                 We seek to be a comfy and welcoming space for all who enjoy cozy, more intimate spaces!
                 With a dreamy-like ambience, we hope you come 'wvnder' with us!
