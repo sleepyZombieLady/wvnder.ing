@@ -15,10 +15,40 @@
 </head>
 
 <body>
-    <div id="particles-js"></div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-wvndr">
+        <!-- <a class="navbar-brand" href="/">WVNDR</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">H O M E<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">A B O U T</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/menu">M E N U</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/gallery">G A L L E R Y</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="particles-js">
+        <div class="branding">
+            <img src="/public/img/logo.png" alt="WVNDER logo"><br>
+            <img src="/public/img/address.png" alt="address">
+        </div>
+    </div>
 
     <script src="/public/js/particles.js"></script>
     <script src="/public/js/app.js?<?=uniqid()?>"></script>
+
 </body>
 
 </html>
