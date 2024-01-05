@@ -23,8 +23,9 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center">
-            <img src="/public/img/alisae.gif" alt="Enjoy our delicious menu!" class="img-fluid d-sm-none" style="margin-top: -120px; max-height: 300px; ">
-            <img src="/public/img/everyone.png" alt="Everyone's Welcome!" class="img-fluid d-none d-md-block" style="margin-top: -120px; ">
+            <img src="/public/img/alphinaud.gif" alt="Aykchually! Alphinaud" class="img-fluid d-sm-none" style="margin-top: -120px; max-height: 300px; ">
+            <img src="/public/img/alphinaud.gif" alt="Aykchually! Alphinaud" class="img-fluid d-none d-md-block" style="margin-top: -120px; max-height: 300px; float: left; ">
+            <img src="/public/img/alisae.gif" alt="Alisae" class="img-fluid d-none d-md-block" style="margin-top: -120px; max-height: 300px; float: right; ">
             <p class="text-center d-none d-md-block">
                 <em>Everyone is welcome at WVNDER!</em>
             </p>
@@ -85,6 +86,3 @@
         </div>
     </div>
 </div>
-
-<script src="/public/js/particles.js"></script>
-<script src="/public/js/app.js?<?=uniqid()?>"></script>
